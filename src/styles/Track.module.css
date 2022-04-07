@@ -1,0 +1,69 @@
+.main {
+    height: 100vh;
+    background: #2F303A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.backgroundColor {
+    background: rgb(47,48,58);
+    background: linear-gradient(0deg, rgba(47,48,58,1) 0%, rgba(9,121,57,1) 100%);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+
+.track {
+    background: #2F303A;
+    border: 1px solid #67686b;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 100%;
+    height: 800px;
+    overflow-y: scroll
+}
+
+.track::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.paraColor {
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+.borderButtom {
+    border-bottom: 1px solid rgb(110, 105, 105);
+    padding: 20px;
+}
+
+.trackTitleText {
+    color: rgb(175, 167, 167);
+    font-size: 16px;
+}
+
+
+@media screen and (min-width: 900px) {
+
+    .main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 0px 30px;
+        height: 100vh;
+    }
+
+    .track {
+        overflow-y: scroll;
+        height: 500px;
+        border-radius:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  0px;
+    }
+}

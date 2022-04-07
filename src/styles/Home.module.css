@@ -1,0 +1,51 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #2F303A;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer {
+ 
+}
+
+.btn {
+    background-color: #1762A7;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 40px;
+    margin-top: 10px;
+}
+
+.first {
+    background: rgba(39, 172, 245, 0.05);
+    z-index: 1;
+}
+
+.third {
+    background-color: rgba(245, 39, 245, 0.05);
+}
+
+.fontWeight {
+    font-weight: bold;
+    cursor: pointer;
+}
+

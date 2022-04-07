@@ -1,0 +1,26 @@
+<svg width="67" height="67" viewBox="0 0 67 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="33.5" cy="33.5" r="31.618" fill="white" stroke="url(#paint0_linear_10_46)" stroke-width="3.76405"/>
+<mask id="mask0_10_46" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="11" y="20" width="47" height="26">
+<line x1="12.7299" y1="30.5967" x2="12.7299" y2="35.51" stroke="black" stroke-width="2.23333" stroke-linecap="round"/>
+<line x1="18.9834" y1="30.5967" x2="18.9834" y2="35.51" stroke="black" stroke-width="2.23333" stroke-linecap="round"/>
+<line x1="25.2365" y1="26.13" x2="25.2365" y2="39.9767" stroke="black" stroke-width="2.23333" stroke-linecap="round"/>
+<line x1="31.49" y1="22.11" x2="31.49" y2="44.4433" stroke="black" stroke-width="2.23333" stroke-linecap="round"/>
+<line x1="37.7431" y1="22.11" x2="37.7431" y2="44.4433" stroke="black" stroke-width="2.23333" stroke-linecap="round"/>
+<line x1="43.9965" y1="26.13" x2="43.9965" y2="39.9767" stroke="black" stroke-width="2.23333" stroke-linecap="round"/>
+<line x1="50.25" y1="30.5967" x2="50.25" y2="35.51" stroke="black" stroke-width="2.23333" stroke-linecap="round"/>
+<line x1="56.5031" y1="30.5967" x2="56.5031" y2="35.51" stroke="black" stroke-width="2.23333" stroke-linecap="round"/>
+</mask>
+<g mask="url(#mask0_10_46)">
+<rect x="4.02002" y="20.9933" width="70.1267" height="28.5867" fill="url(#paint1_linear_10_46)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_10_46" x1="33.5" y1="0" x2="33.5" y2="67" gradientUnits="userSpaceOnUse">
+<stop stop-color="#134B8C"/>
+<stop offset="1" stop-color="#D66AC4"/>
+</linearGradient>
+<linearGradient id="paint1_linear_10_46" x1="39.0834" y1="20.9933" x2="39.0834" y2="49.58" gradientUnits="userSpaceOnUse">
+<stop stop-color="#134B8C"/>
+<stop offset="1" stop-color="#D66AC4"/>
+</linearGradient>
+</defs>
+</svg>

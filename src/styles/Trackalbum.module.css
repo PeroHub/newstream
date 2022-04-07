@@ -1,0 +1,15 @@
+.trackTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.zIndex {
+    z-index: 10;
+}
+
+.trackmusic {
+    color: rgb(175, 167, 167);
+    font-size: 12px;
+}
