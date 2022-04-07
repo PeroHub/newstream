@@ -41,7 +41,7 @@ export default function Main({handleClick}) {
    <Box className={styles.container}>
     <Box sx={{display: {xs: "flex"}, flexDirection: {xs: "column", md: "row"}, justifyContent: "center", alignItems: "center"}}>
       <Box sx={{mt: 2,display: "flex", justifyContent: "center", alignItems: "center", width: {xs: "100%", sm: "60%", md: "50%"}}}>
-      <img
+      <img className={styles.img}
           src="/images/logo/wave.svg"
           alt="wave icon"
           
