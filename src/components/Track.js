@@ -11,7 +11,7 @@ import AudioPlayer from "./AudioPlayer"
 // import Details from './Details';
 import Player from './Player';
 
-import music from '../images/logo/music.png'
+
 
 import { IoIosArrowDropleftCircle } from "react-icons/io";
 
@@ -66,37 +66,37 @@ const [songs] = useState([
     title: "Ginger",
     artist: "Wizkid",
     img_src: "./images/music.png",
-    src: ginger.mp3,
+    src: ginger,
   },
   {
     title: "her",
     artist: "Wizkid",
     img_src: "./images/music.png",
-    src: her.mp3,
+    src: her,
   },
   {
     title: "Grace",
     artist: "Wizkid",
     img_src: "./images/music.png",
-    src: grace.mp3,
+    src: grace,
   },
   {
     title: "Blessed",
     artist: "Wizkid",
     img_src: "./images/music.png",
-    src: blessed.mp3,
+    src: blessed,
   },
   {
     title: "Roma",
     artist: "Wizkid",
     img_src: "./images/music.png",
-    src: roma.mp3,
+    src: roma,
   },
   {
     title: "Reckless",
     artist: "Wizkid",
     img_src: "./images/music.png",
-    src: reckless.mp3,
+    src: reckless,
   },
   {
     title: "Wine",
@@ -150,17 +150,12 @@ useEffect(() => {
     <Box className={styles.main} >
      
       <Box className={styles.backgroundColor} sx={{ display: {xs: "block", md: "block"}, padding: {xs:2, md:10}}}>
-        <Box>
-          <img
-          className={styles.zIndex}
-            src={music}
-            alt="music"
-            
-          />
+        <Box style={{}}>
+         
         </Box>
         <Box sx={{mt: {xs: 0,md: 4}, mb: {xs: 0, md: 2}}}>
           <Typography sx={{fontSize: {xs: "2rem"}, fontWeight: "bold", mt: 4}} className={styles.paraColor}>New Song</Typography>
-          <Typography className={styles.paraColor}>New music from Wizkid</Typography>
+          <Typography className={styles.paraColor}>Naija Hit songs</Typography>
           <Typography className={styles.paraColor}>30 mins</Typography>
         </Box>
       </Box>
